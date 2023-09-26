@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vero Polegre | Landing Project</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/fav-icon.png"
+      type="image/x-icon"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize and CSS -->
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <header>
+        <div class="header-title">
+          <h1>\\VERO POLEGRE</h1>
+          <h4>// Musician <i>turning</i> web dev.</h4>
+        </div>
+        <!-- Nav Bar -->
+        <div class="sticky">
+          <nav class="navbar">
+            <a class="nav-link" href="../index.html">Welcome</a>
+            <a class="nav-link" href="../pages/bio.html">About Me</a>
+            <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+    </header>
+    <main>
+      <section>
+        <h2>Contact here!</h2>
+        <form>
+          <fieldset>
+            <legend>Your name</legend>
+            <label for="first-name"
+              >Name:
+              <input
+                id="first-name"
+                name="first-name"
+                type="text"
+                autofocus
+                required
+                tabindex="1"
+                placeholder="Juan"
+            /></label>
+            <label for="surname"
+              >Surname:
+              <input
+                id="surname"
+                name="surname"
+                type="text"
+                required
+                tabindex="2"
+                placeholder="Wick"
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Your email</legend>
+            <label for="email">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="juanitowick@email.com"
+                required
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Subject</legend>
+            <label for="bio">
+              <textarea id="bio" name="bio" placeholder=""></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Restablecer" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
